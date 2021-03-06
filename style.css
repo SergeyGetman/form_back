@@ -1,4 +1,11 @@
-body {}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(44, 40, 40, 0.8)), url("images/12.jpg");
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
 
 .contact__form p {
     text-align: center;
@@ -7,7 +14,9 @@ body {}
 
 h1 {
     text-align: center;
-    padding: 70px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+    font-size: 30px;
 }
 
 .contact__wraper {
@@ -27,6 +36,7 @@ h1 {
 
 form p {
     text-align: left;
+    color: white
 }
 
 input {
@@ -34,6 +44,11 @@ input {
     height: 40px;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+#inpt:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
 }
 
 input:first-of-type {
@@ -54,6 +69,10 @@ textarea {
 .button__block {
     display: flex;
     justify-content: flex-end;
+}
+
+.button__block:hover :first-child {
+    background-color: yellowgreen;
 }
 
 input[type=submit] {
